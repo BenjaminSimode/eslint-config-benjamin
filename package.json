@@ -14,7 +14,8 @@
     "node": ">=8.10.0"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
