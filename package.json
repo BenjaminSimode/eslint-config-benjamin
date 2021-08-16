@@ -1,0 +1,23 @@
+{
+  "name": "@benjamin/eslint-config-benjamin",
+  "version": "1.0.0",
+  "description": "Generic eslint configuration for web development.",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "author": "Benjamin Simode",
+  "license": "BSD-2-Clause",
+  "peerDependencies": {
+    "eslint": ">=5.16.0",
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
