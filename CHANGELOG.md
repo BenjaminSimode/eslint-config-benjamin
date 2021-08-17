@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.4.0] - 2021-08-17
+
+### Added
+
+- Add the possibility to disallow inline styling with `@benjaminsimode/eslint-config-benjamin/no-inline-styles`.
+
 ## [1.3.0] - 2021-08-17
 
 ### Added
