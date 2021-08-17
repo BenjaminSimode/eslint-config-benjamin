@@ -7,6 +7,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.3.0] - 2021-08-17
+
+### Added
+
+- Add support for node 10 and node 12
+- Ignore `package-lock.json` file
+
 ## [1.2.0] - 2021-08-17
 
 ### Added
