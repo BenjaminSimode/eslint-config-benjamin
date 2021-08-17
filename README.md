@@ -40,8 +40,6 @@
 
 ## Usage
 
----
-
 The "Quick start" above exemplifies usage of this package with standard Node.js code.
 
 Depending on the ECMAScript version of your code, whether you are using non-standard syntax like Flow and React's JSX,
@@ -78,6 +76,9 @@ To use each plugin-specific configuration, you'll need to do the following:
 - [`@benjaminsimode/eslint-config-benjamin`**`/promise`**](./promise.js)
     - Depends on [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise).
     - For `Promise`s.
+- [`@benjaminsimode/eslint-config-benjamin`**`/no-inline-styles`**](./no-inline-styles.js)
+    - Depends on [eslint-plugin-no-inline-styles](https://github.com/nmanthena18/eslint-no-inline-styles).
+    - Disallow inline styling.
 - [`@benjaminsimode/eslint-config-benjamin`**`/xss`**](./xss.js)
     - Depends on [eslint-plugin-xss](https://github.com/Rantanen/eslint-plugin-xss).
     - For avoiding potential XSS issues in front end JavaScript.
