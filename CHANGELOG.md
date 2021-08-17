@@ -7,7 +7,15 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-## [1.0.2] - 2017-06-20
+## [1.1.0] - 2017-07-20
+### Added
+- Add tests to validate configs
+- Add `globals` object in `base.js`
+
+### Changed
+- Keywords in `package.json`
+
+## [1.0.2] - 2017-07-20
 ### Changed
 - Package name
 - Usage documentation

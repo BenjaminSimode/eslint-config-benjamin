@@ -14,7 +14,7 @@
     ```
 
 2. Extend the `@benjaminsimode/eslint-config-benjamin` config in your `.eslintrc` (or `eslintConfig` key in your
-   `package. json`):
+   `package.json`):
 
     ```json
     "eslintConfig": {

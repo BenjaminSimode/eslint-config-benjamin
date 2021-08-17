@@ -1,10 +1,32 @@
 {
   "name": "@benjaminsimode/eslint-config-benjamin",
-  "version": "1.0.2",
-  "description": "Generic eslint configuration for web development.",
+  "version": "1.1.0",
+  "description": "Generic eslint configuration for web development - ESLint Shareable Config",
   "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
   ],
   "main": "index.js",
   "author": "Benjamin Simode",
@@ -22,11 +44,12 @@
     "node": ">=8.10.0"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
+    "lint": "eslint . --config=.eslintrc.js",
+    "test": "npm run lint && tape test/*.js"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "tape": "^5.3.1"
   }
 }
