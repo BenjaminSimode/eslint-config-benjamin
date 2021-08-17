@@ -6,10 +6,7 @@ module.exports = {
     es6: true
   },
   parserOptions: {
-    'ecmaVersion': 2021,
-    'ecmaFeatures': {
-      'jsx': true
-    }
+    'ecmaVersion': 2021
   },
   globals: {
     'document': 'readonly',

@@ -82,6 +82,9 @@ To use each plugin-specific configuration, you'll need to do the following:
     - Depends on [eslint-plugin-xss](https://github.com/Rantanen/eslint-plugin-xss).
     - For avoiding potential XSS issues in front end JavaScript.
     - Does not perform any JavaScript style linting if used on its own.
+- [`@benjaminsimode/eslint-config-benjamin`**`/react`**](./react.js)
+    - Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
+    - For React and JSX.
 
 ### With Prettier
 
