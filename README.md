@@ -71,7 +71,7 @@ To use each plugin-specific configuration, you'll need to do the following:
     - Depends on [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node).
     - For Node.js and CommonJS.
     - Specify the version of Node.js your project uses by either setting `.engines.node` in your `package.json`, or by
-      extending an LTS-version-specific ESLint configuration: **`node14`**.
+      extending an LTS-version-specific ESLint configuration: **`node10`, `node12`, `node14`**.
 - [`@benjaminsimode/eslint-config-benjamin`**`/import`**](./import.js)
     - Depends on [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import).
     - For ES2015 modules (`import` and `export`).
