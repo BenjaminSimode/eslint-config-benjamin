@@ -7,26 +7,43 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-## [1.2.0] - 2021-08-17
+## [1.3.0] - 2021-08-17
+
 ### Added
+
+- Add support for node 10 and node 12
+- Ignore `package-lock.json` file
+
+## [1.2.0] - 2021-08-17
+
+### Added
+
 - Add react support
 
 ## [1.1.0] - 2021-08-17
+
 ### Added
+
 - Add tests to validate configs
 - Add `globals` object in `base.js`
 
 ### Changed
+
 - Keywords in `package.json`
 
 ## [1.0.2] - 2021-08-16
+
 ### Changed
+
 - Package name
 - Usage documentation
 
 ## [1.0.1] - 2021-08-16
+
 ### Added
+
 - Usage documentation
 
 ## [1.0.0] - 2021-08-16
+
 - First release 🚀
