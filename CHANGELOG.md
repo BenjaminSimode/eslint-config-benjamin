@@ -7,7 +7,14 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-## [1.0.0] - 2017-06-20
+## [1.0.2] - 2017-06-20
+### Changed
+- Package name
+- Usage documentation
 
+## [1.0.1] - 2017-06-20
 ### Added
 - Usage documentation
+
+## [1.0.0] - 2017-06-20
+- First release 🚀
