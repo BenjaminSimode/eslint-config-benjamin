@@ -7,6 +7,12 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.5.1] - 2021-08-30
+
+### Fixed
+
+- Move vue3 config from plugins to extends array
+
 ## [1.5.0] - 2021-08-30
 
 ### Added
