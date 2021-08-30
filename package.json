@@ -1,6 +1,6 @@
 {
   "name": "@benjaminsimode/eslint-config-benjamin",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Generic eslint configuration for web development - ESLint Shareable Config",
   "keywords": [
     "JavaScript Standard Style",
