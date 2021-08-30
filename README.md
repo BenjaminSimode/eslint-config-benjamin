@@ -86,6 +86,9 @@ To use each plugin-specific configuration, you'll need to do the following:
 - [`@benjaminsimode/eslint-config-benjamin`**`/react`**](./react.js)
     - Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
     - For React and JSX.
+- [`@benjaminsimode/eslint-config-benjamin`**`/vue3`**](./vue3.js)
+  - Depends on [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue).
+  - For Vue3.
 
 ### With Prettier
 

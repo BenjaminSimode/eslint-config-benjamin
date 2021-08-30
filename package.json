@@ -40,8 +40,7 @@
   },
   "homepage": "https://github.com/BenjaminSimode/eslint-config-benjamin#readme",
   "peerDependencies": {
-    "eslint": ">=5.16.0",
-    "node": ">=8.10.0"
+    "eslint": ">=5.16.0"
   },
   "scripts": {
     "lint": "eslint . --config=.eslintrc.js",
