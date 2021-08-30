@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-  extends: require.resolve('./base'),
+  extends: [
+    require.resolve('./base'),
+    'plugin:vue/vue3-recommended'
+  ],
   parserOptions: {
     sourceType: 'module'
   },
@@ -10,6 +13,5 @@ module.exports = {
     defineEmits: 'readonly',
     defineExpose: 'readonly',
     withDefaults: 'readonly'
-  },
-  plugins: ['plugin:vue/vue3-recommended']
+  }
 };
