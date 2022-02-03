@@ -7,6 +7,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.6.0] - 2022-02-03
+
+### Added
+
+- Vue 2 support
+- Node 16 support
+
 ## [1.5.1] - 2021-08-30
 
 ### Fixed
