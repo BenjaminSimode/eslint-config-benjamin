@@ -69,7 +69,7 @@ To use each plugin-specific configuration, you'll need to do the following:
     - Depends on [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node).
     - For Node.js and CommonJS.
     - Specify the version of Node.js your project uses by either setting `.engines.node` in your `package.json`, or by
-      extending an LTS-version-specific ESLint configuration: **`node10`, `node12`, `node14`**.
+      extending an LTS-version-specific ESLint configuration: **`node10`, `node12`, `node14`, `node16`**.
 - [`@benjaminsimode/eslint-config-benjamin`**`/import`**](./import.js)
     - Depends on [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import).
     - For ES2015 modules (`import` and `export`).
@@ -86,6 +86,9 @@ To use each plugin-specific configuration, you'll need to do the following:
 - [`@benjaminsimode/eslint-config-benjamin`**`/react`**](./react.js)
     - Depends on [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
     - For React and JSX.
+- [`@benjaminsimode/eslint-config-benjamin`**`/vue2`**](./vue2.js)
+    - Depends on [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue).
+    - For Vue2.
 - [`@benjaminsimode/eslint-config-benjamin`**`/vue3`**](./vue3.js)
   - Depends on [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue).
   - For Vue3.
